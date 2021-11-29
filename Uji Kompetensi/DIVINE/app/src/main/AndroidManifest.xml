@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.komputerkit.divine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DIVINE">
+        <activity android:name=".LupaPass"
+            android:label=""
+            android:parentActivityName=".regristasi2"/>
+        <activity
+            android:name=".TamAds"
+            android:label=""
+            android:parentActivityName=".home" />
+        <activity android:name=".Myads" />
+        <activity
+            android:name=".uploadproduk"
+            android:label="Upload Produk"
+            android:parentActivityName=".home" />
+        <activity android:name=".Buttom_Nav" />
+        <activity android:name=".home" />
+        <activity
+            android:name=".editprofile"
+            android:label="Edit Profile"
+            android:parentActivityName=".username" />
+        <activity
+            android:name=".createpass"
+            android:label="Create Password"
+            android:parentActivityName=".privacy" />
+        <activity
+            android:name=".privacy"
+            android:label="Privacy"
+            android:parentActivityName=".settings" />
+        <activity
+            android:name=".settings"
+            android:label="Settings"
+            android:parentActivityName=".username" />
+        <activity android:name=".username" />
+        <activity android:name=".location" />
+        <activity android:name=".regristasi2" />
+        <activity android:name=".regristasi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

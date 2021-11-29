@@ -1,0 +1,2 @@
+rootProject.name = "DIVINE"
+include ':app'
